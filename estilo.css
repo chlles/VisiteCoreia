@@ -1,0 +1,377 @@
+
+/* ======= layout responsivo ========= */
+
+@media screen and (max-width: 767px) {
+	body{
+		text-align: central;
+	}
+
+	h1 {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 10px;
+	}
+	.titulo-bandeira {
+	min-width: 100%;
+	max-height: 300px;
+	height:300px;
+	width: 100%;
+	background-image: url('imagens/bandeira2.png');
+	background-repeat: no-repeat;
+    background-size: 100%;
+	}
+	.titulo-mobiletr {
+	min-width: 100%;
+	max-height: 150px;
+	height:200px;
+	width: 100%;
+	background-image: url('imagens/hanbok.jpg');
+	background-repeat: no-repeat;
+    background-size: 100%;
+	}
+	.titulo-mobilesr {
+	min-width: 100%;
+	max-height: 150px;
+	height:200px;
+	width: 100%;
+	background-image: url('imagens/coreia4.jpg');
+	background-repeat: no-repeat;
+    background-size: 100%;
+	}
+	#servicos {
+	background-color:black;
+	color:white;
+	padding-bottom: 30px;
+	}
+
+	.carousel, .item, .active {
+	height: 100%;
+	height: 200px;
+	}
+
+	.item img{
+	width: 100%;
+	height: 300px;
+	}
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+	h1 {
+		font-size: 70px;
+	}
+
+	h2 {
+		font-size: 10px;
+	}
+	
+	.carousel, .item, .active {
+	height: 100%;
+	height: 500px;
+	}
+
+	.item img{
+	width: 100%;
+	height: 600px;
+	}
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+	h1 {
+		font-size: 80px;
+	}
+	
+	
+
+
+	#tradicional {
+		height: 800px;
+	}
+	
+	.titulo-tradicional{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	}
+
+	.texto-tradicional {
+	margin-left: 30px;
+	padding:20px;
+	text-color:black;
+	float: left;
+	}
+
+	#icones {
+	height: 700px;
+	}
+
+	#bloco2 {
+	top:0px;
+	margin-right:500px;
+	height: 900px;
+	width: auto;
+	background-color: white;
+	position: relative fixed center;
+	}
+
+	.titulo-servicos {
+	padding-left:70px; 
+	padding-bottom:20px;
+	}
+
+	.texto-servicos {
+	margin-left: 80px; 
+	float: left;
+	}
+
+	#servicos {
+	background-image: linear-gradient(50deg ,rgba(226, 226, 226,0.2), rgba(0, 0, 0, 0.2)),url('imagens/coreia4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 200px;
+	padding-bottom: 20px;
+	height: 900px;
+	width: 100%;
+	display: block;
+	}
+
+	#bloco {
+	top:0px;
+	margin-left:500px;
+	height: 900px;
+	width: auto;
+	background-color: white;
+	position: relative fixed center;
+	}
+
+	#tradicional {
+	background-image: linear-gradient(50deg ,rgba(226, 226, 226,0.2), rgba(0, 0, 0, 0.2)),url('imagens/hanbok.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 20px;
+	height: 900px;
+	width: 100%;
+	display: block;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+
+	h1 {
+		font-size: 100px;
+	}
+
+}
+
+
+/* ======= layout ========= */
+
+html, body, {
+	height: 100%;
+	overflow: auto;
+	background-color: #000;
+}
+
+
+body {
+	font-family: Helvetica,Arial,Sans-serif;
+	overflow-x: hidden;
+}
+
+/* -- navbar -- */
+nav.navbar-transparente{
+	padding: 5px 0px;
+	background: rgba(0,0,0,0.8);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	 color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	 color:black;
+}
+
+/*------- Carousel -------*/
+a.left{
+	box-shadow: 0px;
+}
+a.left:hover{
+	bottom: ox-shadow: 0px;
+}
+.carousel-inner {
+	height: 100%;
+}
+
+/* -- Botão -- */
+.btn-rosa {
+	background:#E74E61;
+	color:white;
+}
+
+.btn-rosa:hover {
+	background-color:#c6638c;
+	color:white;
+	transition: background 0.4s, color 0.4s;
+}
+
+/* -- Sobre -- */
+#resumo {
+	background:#000;
+	color:#fff;
+	padding-top:50px;
+	padding-bottom: 65px;
+	text-align: center;
+}
+
+#sobre {
+	background:#000;
+	color:#fff;
+	padding-top:50px;
+	padding-bottom: 65px;
+}
+
+/*-- Tradicional-- */
+.titulo-tradicional {
+	text-color: black;
+	text-align: center;
+}
+
+.texto-tradicional {
+	text-color:black;
+	float: left;
+}
+
+/* Icones */
+#icones {
+	background:#fff;
+	color:#000;
+	padding-top:50px;
+	margin-bottom: 100px;
+	margin-top:100px;
+	position: center;
+	display:block;
+}
+
+.bloquinho {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	background-color: #E74E61;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	border-radius: 100px;
+}
+
+.col-md-4 i {
+	font-size:60px;
+	color: white;
+    display:block;
+    text-align:center;
+    line-height: 150px;
+}
+
+/*-- Serviços-- */
+.titulo-servicos {
+	text-color: black;
+	text-align: center;
+}
+
+.texto-servicos {
+	text-color:black;
+}
+
+/*-- Moderna-- */
+
+/*-- Contato -- */
+#contato {
+	background:#fff;
+	padding-top:50px;
+	padding-bottom: 200px;
+}
+
+
+/* -- Rodapé -- */
+footer {
+	background-color: black;
+	color: #a0a0a0;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+
+/* ======= Tipografia ========= */
+
+h1 {
+	/* font-weight:600;*/
+	letter-spacing: -0.03em;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size:60px;
+	font-weight:700;
+	letter-spacing: -0.03em;
+}
+
+h3 {
+	font-size:30px;
+	font-weight:700;
+	letter-spacing: -0.03em;
+}
+
+
+
+/* ======= Animações JS ========= */
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .3s;
+}
+
+.anime2 {
+	opacity: 0;
+	transform: translate3d(+100px,0,0);
+	transition: .3s;
+}
+
+.anime3 {
+	opacity: 0;
+	transition: .3s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+
+/***LOGO/CASO DECIDIR USAR**//
+.img-logo{
+	height:30px;
+	width: 100px;
+	display: block;
+	background: url('imagens/logo.png') no-repeat;
+	background-size: contain;
+	color:transparent;
+}
